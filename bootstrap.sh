@@ -27,7 +27,12 @@ wait
 pip install psycopg2
 wait
 
-echo "export WORKON_HOME=/vagrant/.virtualenvs" >> ~/.bashrc
-echo "export PROJECT_HOME=/vagrant/src" >> ~/.bashrc
-echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+echo "export WORKON_HOME=/vagrant/.virtualenvs" >> /home/vagrant/.bashrc
+echo "export PROJECT_HOME=/vagrant/src" >> /home/vagrant/.bashrc
+echo "source /usr/local/bin/virtualenvwrapper.sh" >> /home/vagrant/.bashrc
+echo "cd /vagrant/src/django17" >> /home/vagrant/.bashrc
+
+
+
+
 
